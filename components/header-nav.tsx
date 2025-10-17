@@ -9,18 +9,13 @@ export default function HeaderNav() {
             </a>
           </li>
           <li>
-            <a href="/projects" className="hover:underline">
+            <a
+              href="https://github.com/AVAHC4?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:underline"
+            >
               projects
-            </a>
-          </li>
-          <li>
-            <a href="/blogs" className="hover:underline">
-              blogs
-            </a>
-          </li>
-          <li>
-            <a href="/about" className="hover:underline">
-              about
             </a>
           </li>
         </ul>
