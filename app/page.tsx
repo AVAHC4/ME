@@ -40,7 +40,7 @@ export default function Page() {
       <section className="space-y-4 text-base leading-7">
         <p>
           {
-            "when i was 17, i had an idea to build a social media platform for college students. i wanted it anonymous, so i built "
+            "when i was 18, i built my first real project — a budget tracker for students. i wanted it to actually help people, so i obsessed over UX, performance, and automation it ended up being used by 100+ active users. "
           }
           <a href="https://thepairup.com" target="_blank" rel="noreferrer">
             thepairup
@@ -49,30 +49,28 @@ export default function Page() {
         </p>
         <p>{"ok, i'm not done yet."}</p>
         <p>
-          <a href="https://thepairup.com" target="_blank" rel="noreferrer">
-            thepairup
-          </a>
-          {
-            " brutally failed. i thought i was the next mark zuckerberg. went all in for 3 months, coding 12–14 hours a day. and i was the only one who signed up."
-          }
+
+
+          
         </p>
         <p>
-          {"back to the present, i'm the founder of "}
-          <a href="https://superfast.zone" target="_blank" rel="noreferrer">
-            superfast
+            {
+            "fast forward to now — i’m the founder of EnggBot "}
+          <a href="https://www.enggbot.me/" target="_blank" rel="noreferrer">
+            Enggbot
           </a>
-          {", a next.js boilerplate that helps developers go from idea to revenue in just days."}
+          {", an AI-powered assistant for engineering students."}
         </p>
         <p>
           {"check out the "}
-          <a href="https://superfast.zone/promo" target="_blank" rel="noreferrer">
-            promo
+          <a href="https://www.enggbot.me/" target="_blank" rel="noreferrer">
+            project
           </a>
           {"."}
         </p>
         <p>
           {
-            "superfast gives you everything you need to launch fast. no complex setup, no endless config, just powerful tools that work out of the box. focus on your product while we handle the heavy lifting. "
+            "first users are rolling in, and i finally feel like all those late nights coding 12–14 hours, debugging MongoDB queries, and perfecting UI animations paid off. "
           }
           <a href="https://docs.superfast.zone" target="_blank" rel="noreferrer">
             learn more about superfast
