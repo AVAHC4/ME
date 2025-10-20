@@ -88,7 +88,7 @@ export default function Page() {
         <p className="font-medium">{"2025 is my year."}</p>
         <p>
           {
-            "i always wanted to build a product that helps people. solo, no team, because at the same time i want to travel the world. like a nomad. check my "
+            "i’m building solo, no team — just my laptop, caffeine, and a bucket list that includes shipping from every country i visit."
           }
           <a href="https://www.kalashvasaniya.com/collection" target="_blank" rel="noreferrer">
             bucket list
