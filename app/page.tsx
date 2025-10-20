@@ -40,12 +40,8 @@ export default function Page() {
       <section className="space-y-4 text-base leading-7">
         <p>
           {
-            "when i was 18, i built my first real project — a budget tracker for students. i wanted it to actually help people, so i obsessed over UX, performance, and automation it ended up being used by 100+ active users. "
+            "when i was 19, i built my first real project — a budget tracker for students. i wanted it to actually help people, so i obsessed over UX, performance, and automation it ended up being used by 100+ active users. "
           }
-          <a href="https://thepairup.com" target="_blank" rel="noreferrer">
-            thepairup
-          </a>
-          {"."}
         </p>
         <p>{"ok, i'm not done yet."}</p>
         <p>
@@ -55,7 +51,7 @@ export default function Page() {
         </p>
         <p>
             {
-            "fast forward to now — i’m the founder of EnggBot "}
+            "fast forward to now — i’m the founder of "}
           <a href="https://www.enggbot.me/" target="_blank" rel="noreferrer">
             Enggbot
           </a>
