@@ -81,7 +81,7 @@ export default function Page() {
       </figure>
 
       <section className="space-y-4 text-base leading-7">
-        <p className="font-medium">{"2025 is my year."}</p>
+        <p className="font-medium">{"2026 is my year."}</p>
         <p>
           {
             "i’m building solo, no team — just my laptop, caffeine, and a bucket list that includes shipping from every country i visit "
