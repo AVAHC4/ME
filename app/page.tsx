@@ -78,7 +78,6 @@ export default function Page() {
           alt="ENGGBOT landing page - Your AI Study Assistant for Smarter Learning"
           className="w-full rounded-md border border-border"
         />
-        <figcaption className="mt-2 text-sm text-muted-foreground">{"first sale is always special."}</figcaption>
       </figure>
 
       <section className="space-y-4 text-base leading-7">

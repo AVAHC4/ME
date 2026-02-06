@@ -16,7 +16,7 @@ export function ThemeToggle() {
   if (!mounted) {
     return (
       <button
-        className="p-2 rounded-full bg-secondary hover:bg-accent transition-colors"
+        className="p-2 rounded-full bg-secondary hover:bg-accent transition-colors cursor-pointer"
         aria-label="Toggle theme"
       >
         <Sun className="h-5 w-5" />
@@ -27,7 +27,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      className="p-2 rounded-full bg-secondary hover:bg-accent transition-colors"
+      className="p-2 rounded-full bg-secondary hover:bg-accent transition-colors cursor-pointer"
       aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
     >
       {theme === 'dark' ? (
