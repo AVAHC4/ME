@@ -47,10 +47,10 @@ export default function Page() {
         <p>
 
 
-          
+
         </p>
         <p>
-            {
+          {
             "fast forward to now — i’m the founder of "}
           <a href="https://www.enggbot.me/" target="_blank" rel="noreferrer">
             Enggbot
@@ -68,9 +68,6 @@ export default function Page() {
           {
             "first users are rolling in, and i finally feel like all those late nights coding 12–14 hours, debugging MongoDB queries, and perfecting UI animations paid off. "
           }
-          <a href="https://docs.superfast.zone" target="_blank" rel="noreferrer">
-            learn more about superfast
-          </a>
           {"."}
         </p>
       </section>
