@@ -22,7 +22,9 @@ export default function HeaderNav() {
           </li>
         </ul>
       </nav>
-      <ThemeToggle />
+      <div className="fixed top-6 right-6 md:right-12 z-50">
+        <ThemeToggle />
+      </div>
     </header>
   )
 }
