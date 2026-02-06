@@ -74,8 +74,8 @@ export default function Page() {
 
       <figure className="my-8">
         <img
-          src="/dodo-payments-receipt-screenshot.jpg"
-          alt="Payment receipt screenshot from Dodo Payments showing a congratulatory payment message."
+          src="/enggbot-screenshot.png"
+          alt="ENGGBOT landing page - Your AI Study Assistant for Smarter Learning"
           className="w-full rounded-md border border-border"
         />
         <figcaption className="mt-2 text-sm text-muted-foreground">{"first sale is always special."}</figcaption>
