@@ -1,6 +1,8 @@
+import { ThemeToggle } from './theme-toggle'
+
 export default function HeaderNav() {
   return (
-    <header className="mt-2">
+    <header className="mt-2 flex items-center justify-between">
       <nav aria-label="Primary">
         <ul className="flex items-center gap-4 text-sm">
           <li>
@@ -20,6 +22,7 @@ export default function HeaderNav() {
           </li>
         </ul>
       </nav>
+      <ThemeToggle />
     </header>
   )
 }
