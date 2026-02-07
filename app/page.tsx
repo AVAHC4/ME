@@ -1,7 +1,5 @@
 import HeaderNav from "@/components/header-nav"
 import AgeTicker from "@/components/age-ticker"
-import ShipLog from "@/components/ship-log"
-import GitHubHeatmap from "@/components/github-heatmap"
 
 export default function Page() {
   return (
@@ -101,14 +99,6 @@ export default function Page() {
           {", the legend."}
         </p>
       </section>
-
-      <hr className="my-8 border-t border-border" />
-
-      <ShipLog />
-
-      <hr className="my-8 border-t border-border" />
-
-      <GitHubHeatmap username="AVAHC4" />
     </main>
   )
 }

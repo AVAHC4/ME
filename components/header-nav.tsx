@@ -20,6 +20,11 @@ export default function HeaderNav() {
               projects
             </a>
           </li>
+          <li>
+            <a href="/ship-log" className="hover:underline">
+              ship log
+            </a>
+          </li>
         </ul>
       </nav>
       <div className="fixed top-6 right-6 md:right-12 z-50">
