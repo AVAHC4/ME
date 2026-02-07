@@ -24,7 +24,7 @@ export default function Page() {
         </p>
         <p>
           {"you can "}
-          <a href="https://x.com/Akhiltwtz" target="_blank" rel="noreferrer">
+          <a href="https://github.com/AVAHC4" target="_blank" rel="noreferrer">
             find me
           </a>
           {" + my "}
