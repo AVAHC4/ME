@@ -54,14 +54,22 @@ export default function Page() {
         <p>
           {
             "fast forward to now — i’m the founder of "}
-          <LinkPreview url="https://www.enggbot.me/">
+          <LinkPreview
+            url="https://www.enggbot.me/"
+            isStatic
+            imageSrc="/enggbot-screenshot.png"
+          >
             Enggbot
           </LinkPreview>
           {", an AI-powered assistant for engineering students."}
         </p>
         <p>
           {"check out the "}
-          <LinkPreview url="https://www.enggbot.me/">
+          <LinkPreview
+            url="https://www.enggbot.me/"
+            isStatic
+            imageSrc="/enggbot-screenshot.png"
+          >
             project
           </LinkPreview>
           {"."}
