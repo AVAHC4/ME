@@ -1,5 +1,7 @@
 import HeaderNav from "@/components/header-nav"
 import AgeTicker from "@/components/age-ticker"
+import { LinkPreview } from "@/components/ui/link-preview"
+
 
 export default function Page() {
   return (
@@ -24,13 +26,13 @@ export default function Page() {
         </p>
         <p>
           {"you can "}
-          <a href="https://github.com/AVAHC4" target="_blank" rel="noreferrer">
+          <LinkPreview url="https://github.com/AVAHC4">
             find me
-          </a>
+          </LinkPreview>
           {" + my "}
-          <a href="https://akhilchava.is-a.dev/" target="_blank" rel="noreferrer">
+          <LinkPreview url="https://akhilchava.is-a.dev/">
             portfolio
-          </a>
+          </LinkPreview>
           {"."}
         </p>
       </section>
@@ -52,16 +54,16 @@ export default function Page() {
         <p>
           {
             "fast forward to now — i’m the founder of "}
-          <a href="https://www.enggbot.me/" target="_blank" rel="noreferrer">
+          <LinkPreview url="https://www.enggbot.me/">
             Enggbot
-          </a>
+          </LinkPreview>
           {", an AI-powered assistant for engineering students."}
         </p>
         <p>
           {"check out the "}
-          <a href="https://www.enggbot.me/" target="_blank" rel="noreferrer">
+          <LinkPreview url="https://www.enggbot.me/">
             project
-          </a>
+          </LinkPreview>
           {"."}
         </p>
         <p>
