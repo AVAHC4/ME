@@ -103,7 +103,7 @@ export const LinkPreview = ({
                 >
                     <Link
                         href={url}
-                        className={cn("text-blue-500 hover:text-blue-600 dark:text-blue-400", className)}
+                        className={className}
                         target="_blank"
                     >
                         {children}
