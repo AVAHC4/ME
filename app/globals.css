@@ -179,3 +179,265 @@
     line-height: 1.6;
   }
 }
+
+/* ═══════════════════════════════════════════════
+   TIME TRAVEL — 1999 ERA
+   GeoCities / early web aesthetics
+   ═══════════════════════════════════════════════ */
+
+[data-era="1999"],
+[data-era="1999"] body {
+  font-family: "Times New Roman", "Times", Georgia, serif !important;
+  background-color: #c0c0c0 !important;
+  background-image: url("data:image/svg+xml,%3Csvg width='8' height='8' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='8' height='8' fill='%23c0c0c0'/%3E%3Crect x='0' y='0' width='4' height='4' fill='%23b8b8b8' opacity='0.3'/%3E%3Crect x='4' y='4' width='4' height='4' fill='%23b8b8b8' opacity='0.3'/%3E%3C/svg%3E") !important;
+  color: #000000 !important;
+}
+
+[data-era="1999"] * {
+  font-family: "Times New Roman", "Times", Georgia, serif !important;
+  border-radius: 0 !important;
+  text-shadow: none !important;
+  transition: none !important;
+}
+
+[data-era="1999"] .time-travel-panel,
+[data-era="1999"] .time-travel-panel * {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace !important;
+  border-radius: 14px !important;
+}
+
+[data-era="1999"] .time-travel-panel button {
+  border-radius: 6px !important;
+}
+
+[data-era="1999"] a {
+  color: #0000FF !important;
+  text-decoration: underline !important;
+  font-weight: normal !important;
+}
+
+[data-era="1999"] a:visited {
+  color: #800080 !important;
+}
+
+[data-era="1999"] a:hover {
+  color: #FF0000 !important;
+}
+
+[data-era="1999"] h1,
+[data-era="1999"] .text-pretty {
+  font-family: "Times New Roman", "Times", Georgia, serif !important;
+  color: #000080 !important;
+  text-align: center !important;
+  font-size: 2.5rem !important;
+}
+
+[data-era="1999"] p,
+[data-era="1999"] li,
+[data-era="1999"] span,
+[data-era="1999"] div:not(.time-travel-panel):not(.time-travel-panel *),
+[data-era="1999"] label,
+[data-era="1999"] h2,
+[data-era="1999"] h3,
+[data-era="1999"] h4,
+[data-era="1999"] h5,
+[data-era="1999"] h6 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  color: #000000 !important;
+}
+
+[data-era="1999"] h2 {
+  color: #800000 !important;
+  font-size: 20px !important;
+  text-decoration: underline !important;
+}
+
+[data-era="1999"] hr {
+  border: none !important;
+  border-top: 3px ridge #808080 !important;
+  margin: 16px 0 !important;
+}
+
+[data-era="1999"] img {
+  border: 3px solid #000000 !important;
+  padding: 2px !important;
+  background: #ffffff !important;
+}
+
+[data-era="1999"] main {
+  max-width: 640px !important;
+  margin: 0 auto !important;
+  background: #ffffff !important;
+  border: 2px inset #808080 !important;
+  padding: 20px !important;
+  box-shadow: 4px 4px 0px #808080 !important;
+}
+
+[data-era="1999"] section {
+  border: 1px inset #c0c0c0 !important;
+  padding: 12px !important;
+  margin-bottom: 12px !important;
+  background: #ffffee !important;
+}
+
+[data-era="1999"] header nav ul {
+  display: flex;
+  gap: 8px;
+}
+
+[data-era="1999"] header nav ul li a {
+  background: #c0c0c0 !important;
+  border: 2px outset #ffffff !important;
+  padding: 4px 12px !important;
+  color: #000000 !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  cursor: pointer;
+}
+
+[data-era="1999"] header nav ul li a:hover {
+  border-style: inset !important;
+}
+
+[data-era="1999"] button:not(.time-travel-panel button) {
+  background: #c0c0c0 !important;
+  border: 2px outset #ffffff !important;
+  color: #000000 !important;
+  padding: 4px 12px !important;
+  font-size: 14px !important;
+  cursor: pointer;
+}
+
+[data-era="1999"] button:not(.time-travel-panel button):hover {
+  border-style: inset !important;
+}
+
+
+/* ═══════════════════════════════════════════════
+   TIME TRAVEL — 2010 ERA
+   Web 2.0 / glossy / iOS skeuomorphism
+   ═══════════════════════════════════════════════ */
+
+[data-era="2010"],
+[data-era="2010"] body {
+  font-family: "Lucida Grande", "Trebuchet MS", "Segoe UI", Tahoma, sans-serif !important;
+  background: linear-gradient(180deg, #f7f9fc 0%, #e8ecf1 100%) !important;
+  background-attachment: fixed !important;
+  color: #333333 !important;
+}
+
+[data-era="2010"] * {
+  font-family: "Lucida Grande", "Trebuchet MS", "Segoe UI", Tahoma, sans-serif !important;
+}
+
+[data-era="2010"] .time-travel-panel,
+[data-era="2010"] .time-travel-panel * {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace !important;
+}
+
+[data-era="2010"] a {
+  color: #1a73e8 !important;
+  text-decoration: none !important;
+}
+
+[data-era="2010"] a:hover {
+  color: #1557b0 !important;
+  text-decoration: underline !important;
+}
+
+[data-era="2010"] h1,
+[data-era="2010"] .text-pretty {
+  font-family: "Lucida Grande", "Trebuchet MS", sans-serif !important;
+  color: #222222 !important;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.8) !important;
+  font-size: 2.8rem !important;
+}
+
+[data-era="2010"] p,
+[data-era="2010"] li,
+[data-era="2010"] span,
+[data-era="2010"] div:not(.time-travel-panel):not(.time-travel-panel *),
+[data-era="2010"] label,
+[data-era="2010"] h2,
+[data-era="2010"] h3,
+[data-era="2010"] h4,
+[data-era="2010"] h5,
+[data-era="2010"] h6 {
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  color: #444444 !important;
+}
+
+[data-era="2010"] h2 {
+  font-size: 20px !important;
+  color: #333333 !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.6) !important;
+  border-bottom: 1px solid #d0d0d0 !important;
+  padding-bottom: 6px !important;
+}
+
+[data-era="2010"] hr {
+  border: none !important;
+  border-top: 1px solid #d0d0d0 !important;
+  margin: 20px 0 !important;
+}
+
+[data-era="2010"] img {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
+  border: 1px solid #d0d0d0 !important;
+}
+
+[data-era="2010"] main {
+  max-width: 720px !important;
+  margin: 0 auto !important;
+  background: #ffffff !important;
+  border: 1px solid #d0d0d0 !important;
+  border-radius: 12px !important;
+  padding: 32px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08) !important;
+}
+
+[data-era="2010"] section {
+  background: linear-gradient(180deg, #ffffff 0%, #fafbfc 100%) !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  margin-bottom: 16px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+}
+
+[data-era="2010"] header nav ul li a {
+  background: linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%) !important;
+  border: 1px solid #c0c0c0 !important;
+  border-radius: 6px !important;
+  padding: 6px 16px !important;
+  color: #333333 !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.8) !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08) !important;
+}
+
+[data-era="2010"] header nav ul li a:hover {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f0f0 100%) !important;
+  text-decoration: none !important;
+}
+
+[data-era="2010"] button:not(.time-travel-panel button) {
+  background: linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%) !important;
+  border: 1px solid #b0b0b0 !important;
+  border-radius: 6px !important;
+  color: #333333 !important;
+  padding: 6px 16px !important;
+  font-size: 14px !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.8) !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08) !important;
+  cursor: pointer;
+}
+
+[data-era="2010"] button:not(.time-travel-panel button):hover {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f0f0 100%) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12) !important;
+}
