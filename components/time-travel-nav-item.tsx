@@ -38,12 +38,14 @@ export function TimeTravelNavItem() {
                                 key={e.value}
                                 onClick={() => setEra(e.value)}
                                 className={`
+                   era-switch-btn
                    text-xs px-2 py-1 rounded-sm border transition-colors
                    ${era === e.value
                                         ? 'bg-foreground text-background border-foreground font-bold'
                                         : 'bg-background text-foreground border-border hover:opacity-70'
                                     }
                 `}
+
                                 title={`Switch to ${e.label}`}
                             >
                                 {e.label}

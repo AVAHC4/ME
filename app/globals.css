@@ -131,6 +131,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     /* Use system font by default (regular) */
@@ -139,26 +140,31 @@
     /* Increase base font size across the site */
     font-size: var(--text-xl) !important;
   }
+
   b,
   strong,
   .font-bold {
     font-family: var(--font-sans);
     font-weight: 700;
   }
+
   /* Title override: use the larger size for page title */
   h1,
   .text-pretty {
     font-size: var(--text-6xl) !important;
   }
+
   a {
     color: var(--link);
     text-underline-offset: 2px;
     text-decoration: underline;
   }
+
   a:hover {
     color: var(--link-hover);
     text-decoration-thickness: 1.5px;
   }
+
   /* Force normal text elements to 1.25rem */
   p,
   li,
@@ -289,7 +295,7 @@
 [data-era="1999"] header nav ul li a {
   background: #c0c0c0 !important;
   border: 2px outset #ffffff !important;
-  padding: 4px 12px !important;
+  padding: 4px 8px !important;
   color: #000000 !important;
   text-decoration: none !important;
   font-size: 14px !important;
@@ -311,6 +317,13 @@
 
 [data-era="1999"] button:not(.time-travel-panel button):hover {
   border-style: inset !important;
+}
+
+[data-era="1999"] header nav button.era-switch-btn {
+  padding: 1px 4px !important;
+  font-size: 11px !important;
+  border-width: 1px !important;
+  height: auto !important;
 }
 
 
@@ -350,7 +363,7 @@
 [data-era="2010"] .text-pretty {
   font-family: "Lucida Grande", "Trebuchet MS", sans-serif !important;
   color: #222222 !important;
-  text-shadow: 0 1px 1px rgba(255,255,255,0.8) !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) !important;
   font-size: 2.8rem !important;
 }
 
@@ -372,7 +385,7 @@
 [data-era="2010"] h2 {
   font-size: 20px !important;
   color: #333333 !important;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.6) !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) !important;
   border-bottom: 1px solid #d0d0d0 !important;
   padding-bottom: 6px !important;
 }
@@ -385,7 +398,7 @@
 
 [data-era="2010"] img {
   border-radius: 8px !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12) !important;
   border: 1px solid #d0d0d0 !important;
 }
 
@@ -396,7 +409,7 @@
   border: 1px solid #d0d0d0 !important;
   border-radius: 12px !important;
   padding: 32px !important;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
 }
 
 [data-era="2010"] section {
@@ -405,19 +418,19 @@
   border-radius: 8px !important;
   padding: 16px !important;
   margin-bottom: 16px !important;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
 }
 
 [data-era="2010"] header nav ul li a {
   background: linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%) !important;
   border: 1px solid #c0c0c0 !important;
   border-radius: 6px !important;
-  padding: 6px 16px !important;
+  padding: 6px 10px !important;
   color: #333333 !important;
   text-decoration: none !important;
   font-size: 14px !important;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.8) !important;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.08) !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) !important;
 }
 
 [data-era="2010"] header nav ul li a:hover {
@@ -432,12 +445,38 @@
   color: #333333 !important;
   padding: 6px 16px !important;
   font-size: 14px !important;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.8) !important;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.08) !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) !important;
   cursor: pointer;
 }
 
 [data-era="2010"] button:not(.time-travel-panel button):hover {
   background: linear-gradient(180deg, #ffffff 0%, #f0f0f0 100%) !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.12) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12) !important;
+}
+
+[data-era="2010"] button.era-switch-btn {
+  padding: 2px 8px !important;
+  font-size: 11px !important;
+  height: auto !important;
+}
+/* Specific overrides to fix header overflow (specificity boost) */
+[data-era="2010"] header nav ul li a {
+  padding: 6px 10px !important;
+}
+
+[data-era="2010"] header nav button.era-switch-btn {
+  padding: 2px 6px !important;
+  font-size: 11px !important;
+  height: auto !important;
+}
+
+/* Further reduce space for 2010 era to prevent wrapping */
+[data-era="2010"] header nav ul {
+  gap: 8px !important;
+}
+
+[data-era="2010"] header nav ul li a {
+  padding: 4px 8px !important;
+  font-size: 13px !important; /* Slightly smaller font to ensure fit */
 }
