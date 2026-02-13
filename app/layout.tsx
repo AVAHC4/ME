@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/next'
 import { ThemeProvider } from '@/components/theme-provider'
 import { TerminalOverlay } from '@/components/terminal-overlay'
+import { Toaster } from '@/components/ui/sonner'
 import './globals.css'
 
 // removed Geist font loading in favor of system UI fonts
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`font-sans antialiased`}>
+      <body className={`font-sans antialiased`} suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
@@ -29,6 +30,7 @@ export default function RootLayout({
         >
           {children}
           <TerminalOverlay />
+          <Toaster />
           <Analytics />
         </ThemeProvider>
       </body>
