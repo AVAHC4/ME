@@ -1,4 +1,5 @@
 import { ThemeToggle } from './theme-toggle'
+import { TimeTravelNavItem } from './time-travel-nav-item'
 
 export default function HeaderNav() {
   return (
@@ -24,6 +25,9 @@ export default function HeaderNav() {
             <a href="/ship-log" className="hover:underline">
               ship log
             </a>
+          </li>
+          <li>
+            <TimeTravelNavItem />
           </li>
         </ul>
       </nav>

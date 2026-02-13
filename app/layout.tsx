@@ -3,7 +3,6 @@ import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/next'
 import { ThemeProvider } from '@/components/theme-provider'
 import { TimeTravelProvider } from '@/components/time-travel-provider'
-import { TimeTravelSlider } from '@/components/time-travel-slider'
 import './globals.css'
 
 // removed Geist font loading in favor of system UI fonts
@@ -30,7 +29,6 @@ export default function RootLayout({
         >
           <TimeTravelProvider>
             {children}
-            <TimeTravelSlider />
           </TimeTravelProvider>
           <Analytics />
         </ThemeProvider>
