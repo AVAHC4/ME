@@ -18,7 +18,7 @@ export function TimeTravelNavItem() {
         <div className="relative flex items-center">
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="hover:underline cursor-pointer"
+                className="text-[var(--link)] underline underline-offset-2 hover:underline cursor-pointer"
                 aria-expanded={isOpen}
             >
                 time travel
@@ -39,12 +39,13 @@ export function TimeTravelNavItem() {
                                 onClick={() => setEra(e.value)}
                                 className={`
                    era-switch-btn
-                   text-xs px-2 py-1 rounded-sm border transition-colors
+                   text-xs px-2 py-1 rounded-sm border transition-colors cursor-pointer
                    ${era === e.value
                                         ? 'bg-foreground text-background border-foreground font-bold'
                                         : 'bg-background text-foreground border-border hover:opacity-70'
                                     }
                 `}
+
 
                                 title={`Switch to ${e.label}`}
                             >
