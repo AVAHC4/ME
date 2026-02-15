@@ -11,7 +11,7 @@ const ERAS: { value: Era; label: string }[] = [
 ]
 
 export function TimeTravelNavItem() {
-    const { era, setEra } = useTimeTravel()
+    const { era, setEra } = ueTimeTravel()
     const [isOpen, setIsOpen] = useState(false)
 
     return (
