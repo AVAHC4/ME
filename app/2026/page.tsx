@@ -33,7 +33,7 @@ function YearRemaining() {
     if (remaining === null) return <span className="opacity-0">00.0000000%</span>
 
     return (
-        <span className="font-mono text-green-500 font-bold tabular-nums">
+        <span suppressHydrationWarning className="tabular-nums" style={{ color: "oklch(59.6% .145 163.225)" }}>
             {remaining.toFixed(7)}%
         </span>
     )
@@ -99,7 +99,7 @@ export default function Page() {
                 <p>things i want to accomplish in 2026. goals, dreams, and everything in between.</p>
             </div>
 
-            <div className="mt-8 font-medium">
+            <div className="mt-8">
                 <YearRemaining /> remain in 2026.
             </div>
 
