@@ -90,7 +90,7 @@ function SubList({ items }: { items: React.ReactNode[] }) {
 
 export default function Page() {
     return (
-        <main className="max-w-3xl mx-auto px-6 py-8 md:py-12">
+        <main className="max-w-prose px-6 py-8 md:py-12 ml-2 md:ml-8">
             <HeaderNav />
 
             <h1 className="mt-8 text-4xl font-bold tracking-tight md:text-5xl">2026 goals.</h1>
