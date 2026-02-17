@@ -22,6 +22,11 @@ export default function HeaderNav() {
             </a>
           </li>
           <li>
+            <a href="/2026" className="hover:underline">
+              goals
+            </a>
+          </li>
+          <li>
             <a href="/ship-log" className="hover:underline">
               ship log
             </a>
