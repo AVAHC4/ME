@@ -289,16 +289,16 @@
 
 [data-era="1999"] header nav ul {
   display: flex;
-  gap: 8px;
+  gap: 4px;
 }
 
 [data-era="1999"] header nav ul li a {
   background: #c0c0c0 !important;
   border: 2px outset #ffffff !important;
-  padding: 4px 8px !important;
+  padding: 3px 6px !important;
   color: #000000 !important;
   text-decoration: none !important;
-  font-size: 14px !important;
+  font-size: 13px !important;
   cursor: pointer;
 }
 
@@ -443,7 +443,7 @@
   border: 1px solid #b0b0b0 !important;
   border-radius: 6px !important;
   color: #333333 !important;
-  padding: 6px 16px !important;
+  padding: 4px 10px !important;
   font-size: 14px !important;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) !important;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) !important;
@@ -460,9 +460,10 @@
   font-size: 11px !important;
   height: auto !important;
 }
+
 /* Specific overrides to fix header overflow (specificity boost) */
 [data-era="2010"] header nav ul li a {
-  padding: 6px 10px !important;
+  padding: 3px 6px !important;
 }
 
 [data-era="2010"] header nav button.era-switch-btn {
@@ -473,10 +474,21 @@
 
 /* Further reduce space for 2010 era to prevent wrapping */
 [data-era="2010"] header nav ul {
-  gap: 8px !important;
+  gap: 4px !important;
+  flex-wrap: nowrap !important;
+}
+
+[data-era="2010"] header nav ul li {
+  white-space: nowrap !important;
 }
 
 [data-era="2010"] header nav ul li a {
-  padding: 4px 8px !important;
-  font-size: 13px !important; /* Slightly smaller font to ensure fit */
+  padding: 3px 6px !important;
+  font-size: 12px !important;
+  white-space: nowrap !important;
+}
+
+[data-era="2010"] header nav ul li button {
+  font-size: 12px !important;
+  white-space: nowrap !important;
 }
