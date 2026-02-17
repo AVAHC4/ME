@@ -20,6 +20,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var era = localStorage.getItem('time-travel-era');
+                  if (era && (era === '1999' || era === '2010')) {
+                    document.documentElement.setAttribute('data-era', era);
+                  }
+                } catch(e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
       <body className={`font-sans antialiased`}>
         <ThemeProvider
           attribute="class"

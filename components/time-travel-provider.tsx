@@ -19,14 +19,18 @@ export function useTimeTravel() {
 }
 
 export function TimeTravelProvider({ children }: { children: React.ReactNode }) {
-    const [era, setEraState] = useState<Era>('2026')
+    const [era, setEraState] = useState<Era>(() => {
+        if (typeof window !== 'undefined') {
+            const stored = localStorage.getItem('time-travel-era') as Era | null
+            if (stored && ['1999', '2010', '2026'].includes(stored)) {
+                return stored
+            }
+        }
+        return '2026'
+    })
     const [mounted, setMounted] = useState(false)
 
     useEffect(() => {
-        const stored = localStorage.getItem('time-travel-era') as Era | null
-        if (stored && ['1999', '2010', '2026'].includes(stored)) {
-            setEraState(stored)
-        }
         setMounted(true)
     }, [])
 
