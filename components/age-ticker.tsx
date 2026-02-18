@@ -12,14 +12,13 @@ export default function AgeTicker({ startISO, decimals = 10 }: Props) {
   const [now, setNow] = useState<number | null>(null)
 
   useEffect(() => {
-    // Set initial value on mount (client-side only)
     setNow(Date.now())
     const id = setInterval(() => setNow(Date.now()), 100)
     return () => clearInterval(id)
   }, [])
 
   const years = useMemo(() => {
-    if (now === null) return 0 // Placeholder during SSR
+    if (now === null) return 0
     const ms = now - start
     const years = ms / (1000 * 60 * 60 * 24 * 365.2425)
     return years

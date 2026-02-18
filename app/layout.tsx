@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
-// Using system UI fonts, no external font imports required
+
 import { Analytics } from '@vercel/analytics/next'
 import { ThemeProvider } from '@/components/theme-provider'
 import { TimeTravelProvider } from '@/components/time-travel-provider'
 import './globals.css'
 
-// removed Geist font loading in favor of system UI fonts
+
 
 export const metadata: Metadata = {
   title: 'v0 App',
