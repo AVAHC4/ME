@@ -205,7 +205,7 @@ export default function Page() {
             </div>
 
             <div className="mt-8">
-                <LinkPreview url="/" className="text-blue-500 hover:underline">← back home</LinkPreview>
+                <LinkPreview url="/" className="text-blue-500 hover:underline" target="_self">← back home</LinkPreview>
             </div>
         </main>
     )

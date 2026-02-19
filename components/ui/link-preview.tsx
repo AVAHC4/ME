@@ -35,7 +35,8 @@ export const LinkPreview = ({
     layout = "fixed",
     isStatic = false,
     imageSrc = "",
-}: LinkPreviewProps) => {
+    target = "_blank", // Add default target
+}: LinkPreviewProps & { target?: string }) => {
     let src;
     if (!isStatic) {
         const params = encode({
@@ -104,7 +105,7 @@ export const LinkPreview = ({
                     <Link
                         href={url}
                         className={className}
-                        target="_blank"
+                        target={target}
                     >
                         {children}
                     </Link>
