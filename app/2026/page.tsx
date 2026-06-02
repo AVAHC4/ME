@@ -166,15 +166,11 @@ export default function Page() {
                     {/* Implied sub-items based on 'start a instagram' being checked */}
                 </GoalItem>
 
-                <GoalItem label={<span>have atleast 10 <LinkPreview url="https://www.kalashvasaniya.com/0-to-1" className="underline decoration-zinc-300 hover:decoration-zinc-500">passive</LinkPreview> income streams</span>} count={6} total={10}>
+                <GoalItem label={<span>have atleast 3 <LinkPreview url="https://www.kalashvasaniya.com/0-to-1" className="underline decoration-zinc-300 hover:decoration-zinc-500">passive</LinkPreview> income streams</span>} count={6} total={3}>
                     <SubList items={[
-                        "twitter",
                         "medium",
-                        "sponsorships",
-                        "affiliate sales",
-                        "startups",
-                        "investment",
-                        "mics"
+                        "chess",
+                        "investment"
                     ]} />
                 </GoalItem>
 
