@@ -139,7 +139,7 @@ export default function Page() {
 
                 <GoalItem label="earn at least $100k (passive)" percentString="10175.92/100,000" />
 
-                <GoalItem label="invest at least $10k in stocks, crypto, and other assets" percentString="720.82/10,000">
+                <GoalItem label="invest at least $1k in stocks, crypto, and other assets">
                     <SubList items={[
                         "sip: motilal oswal flexi cap fund",
                         "sip: parag parekh flexi cap fund",
@@ -150,25 +150,17 @@ export default function Page() {
                     ]} />
                 </GoalItem>
 
-                <GoalItem label="travel to 3 new countries" count={1} total={3}>
+                <GoalItem label="5 domestic trips (leisure only)" count={1} total={5}>
                     <SubList items={[
-                        <span><LinkPreview url="https://en.wikipedia.org/wiki/Malaysia" className="underline decoration-zinc-300 hover:decoration-zinc-500 underline-offset-2">malaysia</LinkPreview> <span className="text-green-500 text-xs ml-1">(mar 1, 2026 - planned)</span></span>
+                        <span>Munsyari <span className="text-green-500 text-xs ml-1">(jan 1, 2026)</span></span>
                     ]} />
                 </GoalItem>
 
-                <GoalItem label="5 domestic trips (leisure only)" count={1} total={5}>
-                </GoalItem>
                 <GoalItem label={<span>have atleast 3 <LinkPreview url="https://www.kalashvasaniya.com/0-to-1" className="underline decoration-zinc-300 hover:decoration-zinc-500">passive</LinkPreview> income streams</span>} count={6} total={3}>
                     <SubList items={[
                         "medium",
                         "chess",
                         "investment"
-                    ]} />
-                </GoalItem>
-
-                <GoalItem label={<span>atleast 5 <LinkPreview url="https://www.kalashvasaniya.com/bucketlist" className="underline decoration-zinc-300 hover:decoration-zinc-500">bucketlist</LinkPreview> items checked off</span>} count={1} total={5}>
-                    <SubList items={[
-                        <span><LinkPreview url="https://x.com/kalashbuilds/status/2010607679186829397?s=20" className="underline decoration-zinc-300 hover:decoration-zinc-500 underline-offset-2">launch startup</LinkPreview> <span className="text-green-500 text-xs ml-1">(jan 12, 2026)</span></span>
                     ]} />
                 </GoalItem>
 
