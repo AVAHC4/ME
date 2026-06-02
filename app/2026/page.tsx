@@ -182,9 +182,9 @@ export default function Page() {
 
                 <GoalItem label={<span>launch 2 <LinkPreview url="https://kalashvasaniya.gumroad.com/" className="underline decoration-zinc-300 hover:decoration-zinc-500">digital products</LinkPreview></span>} count={0} total={2} />
 
-                <GoalItem label={<span>read at least 1 <LinkPreview url="https://www.kalashvasaniya.com/collection#books" className="underline decoration-zinc-300 hover:decoration-zinc-500">books</LinkPreview></span>} count={3} total={2}>
+                <GoalItem label={<span>read at least 1 <LinkPreview url="https://www.kalashvasaniya.com/collection#books" className="underline decoration-zinc-300 hover:decoration-zinc-500">books</LinkPreview></span>} count={1} total={2}>
                     <SubList items={[
-                        <span><LinkPreview url="https://www.goodreads.com/en/book/show/8247775-the-little-book-that-still-beats-the-market" className="underline decoration-zinc-300 hover:decoration-zinc-500 underline-offset-2">the power of your subconscious mind</LinkPreview> <span className="text-green-500 text-xs ml-1">(jan 3, 2026)</span></span>,
+                        <span><LinkPreview url="https://www.goodreads.com/en/book/show/8247775-the-little-book-that-still-beats-the-market" className="underline decoration-zinc-300 hover:decoration-zinc-500 underline-offset-2">the little book that still beats the market</LinkPreview> <span className="text-green-500 text-xs ml-1">(feb 2026)</span></span>,
                     ]} />
                 </GoalItem>
 
