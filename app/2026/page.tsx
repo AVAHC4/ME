@@ -182,9 +182,7 @@ export default function Page() {
 
                 <GoalItem label={<span>launch 2 <LinkPreview url="https://kalashvasaniya.gumroad.com/" className="underline decoration-zinc-300 hover:decoration-zinc-500">digital products</LinkPreview></span>} count={0} total={2} />
 
-                <GoalItem label={<span>start paid <LinkPreview url="https://newsletter.kalashvasaniya.com/" className="underline decoration-zinc-300 hover:decoration-zinc-500">newsletter</LinkPreview></span>} />
-
-                <GoalItem label={<span>read at least 12 <LinkPreview url="https://www.kalashvasaniya.com/collection#books" className="underline decoration-zinc-300 hover:decoration-zinc-500">books</LinkPreview></span>} count={3} total={12}>
+                <GoalItem label={<span>read at least 1 <LinkPreview url="https://www.kalashvasaniya.com/collection#books" className="underline decoration-zinc-300 hover:decoration-zinc-500">books</LinkPreview></span>} count={3} total={2}>
                     <SubList items={[
                         <span><LinkPreview url="https://www.goodreads.com/book/show/68984.The_Power_of_Your_Subconscious_Mind" className="underline decoration-zinc-300 hover:decoration-zinc-500 underline-offset-2">the power of your subconscious mind</LinkPreview> <span className="text-green-500 text-xs ml-1">(jan 3, 2026)</span></span>,
                         <span><LinkPreview url="https://www.goodreads.com/book/show/4865-how-to-win-friends-and-influence-people" className="underline decoration-zinc-300 hover:decoration-zinc-500 underline-offset-2">how to win friends and influence people</LinkPreview> <span className="text-green-500 text-xs ml-1">(jan 13, 2026)</span></span>,
@@ -192,7 +190,7 @@ export default function Page() {
                     ]} />
                 </GoalItem>
 
-                <GoalItem label="hit gym 4 times a week" percentString="9/200" />
+                <GoalItem label="hit gym 5 times a week" percentString="9/200" />
 
             </div>
 
