@@ -96,7 +96,7 @@ export default function Page() {
           {
             "i’m building solo, no team — just my laptop, caffeine, and a bucket list that includes shipping from every country i visit "
           }
-          <a href="https://www.kalashvasaniya.com/collection" target="_blank" rel="noreferrer">
+          <a href="" target="_blank" rel="noreferrer">
             bucket list
           </a>
           {"."}
