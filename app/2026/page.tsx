@@ -157,7 +157,7 @@ export default function Page() {
                     ]} />
                 </GoalItem>
 
-                <GoalItem label={<span>read at least 1 <LinkPreview url="https://www.kalashvasaniya.com/collection#books" className="underline decoration-zinc-300 hover:decoration-zinc-500">books</LinkPreview></span>} count={1} total={2}>
+                <GoalItem label={<span>read at least 2 <LinkPreview url="https://www.kalashvasaniya.com/collection#books" className="underline decoration-zinc-300 hover:decoration-zinc-500">books</LinkPreview></span>} count={1} total={2}>
                     <SubList items={[
                         <span><LinkPreview url="https://www.goodreads.com/en/book/show/8247775-the-little-book-that-still-beats-the-market" className="underline decoration-zinc-300 hover:decoration-zinc-500 underline-offset-2">the little book that still beats the market</LinkPreview> <span className="text-green-500 text-xs ml-1">(feb 2026)</span></span>,
                     ]} />
