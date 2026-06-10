@@ -130,7 +130,7 @@ export default function Page() {
             <div className="mt-12 space-y-6">
 
 
-                <GoalItem label="earn at least $100k (passive)" percentString="10175.92/100,000" />
+                <GoalItem label="earn at least $10k (passive)" percentString="10175.92/100,000" />
 
                 <GoalItem label="invest at least $1k in stocks, crypto, and other assets">
                     <SubList items={[
