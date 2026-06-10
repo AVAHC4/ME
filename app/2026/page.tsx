@@ -133,9 +133,7 @@ export default function Page() {
                 <GoalItem label="launch at least 5 new products" count={2} total={5}>
                     <SubList items={[
                         <span><LinkPreview url="https://www.seoitis.com/" className="underline decoration-zinc-300 hover:decoration-zinc-500 underline-offset-2">seoitis.com</LinkPreview> <span className="text-green-500 text-xs ml-1">(jan 12, 2026)</span></span>,
-                        <span><LinkPreview url="https://trackmysubscriptions.com/" className="underline decoration-zinc-300 hover:decoration-zinc-500 underline-offset-2">trackmysubscriptions.com</LinkPreview> <span className="text-green-500 text-xs ml-1">(feb 1, 2026)</span></span>
-                    ]} />
-                </GoalItem>
+
 
                 <GoalItem label="earn at least $100k (passive)" percentString="10175.92/100,000" />
 
