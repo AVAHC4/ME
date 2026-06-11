@@ -7,7 +7,6 @@ import { motion } from "framer-motion"
 import { Checkbox } from "@/components/ui/checkbox"
 import { cn } from "@/lib/utils"
 
-// --- Components ---
 
 function YearRemaining() {
     const [remaining, setRemaining] = useState<number | null>(null)
