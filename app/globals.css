@@ -497,70 +497,70 @@
    TIME TRAVEL — 1999 ERA (DARK MODE)
    ═══════════════════════════════════════════════ */
 
-.dark[data-era="1999"],
-.dark[data-era="1999"] body {
+html.dark[data-era="1999"],
+html.dark[data-era="1999"] body {
   background-color: #111111 !important;
   background-image: none !important;
   color: #eeeeee !important;
 }
 
-.dark[data-era="1999"] a {
+html.dark[data-era="1999"] a {
   color: #55aaff !important;
 }
 
-.dark[data-era="1999"] a:visited {
+html.dark[data-era="1999"] a:visited {
   color: #ff77ff !important;
 }
 
-.dark[data-era="1999"] a:hover {
+html.dark[data-era="1999"] a:hover {
   color: #ff5555 !important;
 }
 
-.dark[data-era="1999"] h1,
-.dark[data-era="1999"] .text-pretty {
+html.dark[data-era="1999"] h1,
+html.dark[data-era="1999"] .text-pretty {
   color: #aaaaff !important;
 }
 
-.dark[data-era="1999"] p,
-.dark[data-era="1999"] li,
-.dark[data-era="1999"] span,
-.dark[data-era="1999"] div:not(.time-travel-panel):not(.time-travel-panel *),
-.dark[data-era="1999"] label,
-.dark[data-era="1999"] h2,
-.dark[data-era="1999"] h3,
-.dark[data-era="1999"] h4,
-.dark[data-era="1999"] h5,
-.dark[data-era="1999"] h6 {
+html.dark[data-era="1999"] p,
+html.dark[data-era="1999"] li,
+html.dark[data-era="1999"] span,
+html.dark[data-era="1999"] div:not(.time-travel-panel):not(.time-travel-panel *),
+html.dark[data-era="1999"] label,
+html.dark[data-era="1999"] h2,
+html.dark[data-era="1999"] h3,
+html.dark[data-era="1999"] h4,
+html.dark[data-era="1999"] h5,
+html.dark[data-era="1999"] h6 {
   color: #dddddd !important;
 }
 
-.dark[data-era="1999"] h2 {
+html.dark[data-era="1999"] h2 {
   color: #ffaaaa !important;
 }
 
-.dark[data-era="1999"] img {
+html.dark[data-era="1999"] img {
   border-color: #555555 !important;
   background: #333333 !important;
 }
 
-.dark[data-era="1999"] main {
+html.dark[data-era="1999"] main {
   background: #000000 !important;
   border: 2px solid #555555 !important;
   box-shadow: 4px 4px 0px #555555 !important;
 }
 
-.dark[data-era="1999"] section {
+html.dark[data-era="1999"] section {
   background: #1a1a1a !important;
   border-color: #444444 !important;
 }
 
-.dark[data-era="1999"] header nav ul li a {
+html.dark[data-era="1999"] header nav ul li a {
   background: #333333 !important;
   border-color: #777777 !important;
   color: #ffffff !important;
 }
 
-.dark[data-era="1999"] button:not(.time-travel-panel button) {
+html.dark[data-era="1999"] button:not(.time-travel-panel button):not(.theme-toggle-btn) {
   background: #333333 !important;
   border-color: #777777 !important;
   color: #ffffff !important;
@@ -571,68 +571,68 @@
    TIME TRAVEL — 2010 ERA (DARK MODE)
    ═══════════════════════════════════════════════ */
 
-.dark[data-era="2010"],
-.dark[data-era="2010"] body {
+html.dark[data-era="2010"],
+html.dark[data-era="2010"] body {
   background: linear-gradient(180deg, #1a1c20 0%, #0d0f12 100%) !important;
   background-attachment: fixed !important;
   color: #e0e0e0 !important;
 }
 
-.dark[data-era="2010"] a {
+html.dark[data-era="2010"] a {
   color: #5ab0ff !important;
 }
 
-.dark[data-era="2010"] a:hover {
+html.dark[data-era="2010"] a:hover {
   color: #8cc8ff !important;
 }
 
-.dark[data-era="2010"] h1,
-.dark[data-era="2010"] .text-pretty {
+html.dark[data-era="2010"] h1,
+html.dark[data-era="2010"] .text-pretty {
   color: #ffffff !important;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8) !important;
 }
 
-.dark[data-era="2010"] p,
-.dark[data-era="2010"] li,
-.dark[data-era="2010"] span,
-.dark[data-era="2010"] div:not(.time-travel-panel):not(.time-travel-panel *),
-.dark[data-era="2010"] label,
-.dark[data-era="2010"] h2,
-.dark[data-era="2010"] h3,
-.dark[data-era="2010"] h4,
-.dark[data-era="2010"] h5,
-.dark[data-era="2010"] h6 {
+html.dark[data-era="2010"] p,
+html.dark[data-era="2010"] li,
+html.dark[data-era="2010"] span,
+html.dark[data-era="2010"] div:not(.time-travel-panel):not(.time-travel-panel *),
+html.dark[data-era="2010"] label,
+html.dark[data-era="2010"] h2,
+html.dark[data-era="2010"] h3,
+html.dark[data-era="2010"] h4,
+html.dark[data-era="2010"] h5,
+html.dark[data-era="2010"] h6 {
   color: #cccccc !important;
 }
 
-.dark[data-era="2010"] h2 {
+html.dark[data-era="2010"] h2 {
   color: #ffffff !important;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6) !important;
   border-bottom-color: #444444 !important;
 }
 
-.dark[data-era="2010"] hr {
+html.dark[data-era="2010"] hr {
   border-top-color: #444444 !important;
 }
 
-.dark[data-era="2010"] img {
+html.dark[data-era="2010"] img {
   border-color: #444444 !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
 }
 
-.dark[data-era="2010"] main {
+html.dark[data-era="2010"] main {
   background: #1e2025 !important;
   border-color: #333333 !important;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
 }
 
-.dark[data-era="2010"] section {
+html.dark[data-era="2010"] section {
   background: linear-gradient(180deg, #2a2d33 0%, #202226 100%) !important;
   border-color: #3a3f47 !important;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
 }
 
-.dark[data-era="2010"] header nav ul li a {
+html.dark[data-era="2010"] header nav ul li a {
   background: linear-gradient(180deg, #3a3f47 0%, #2a2d33 100%) !important;
   border-color: #444444 !important;
   color: #ffffff !important;
@@ -640,11 +640,11 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) !important;
 }
 
-.dark[data-era="2010"] header nav ul li a:hover {
+html.dark[data-era="2010"] header nav ul li a:hover {
   background: linear-gradient(180deg, #444a54 0%, #353941 100%) !important;
 }
 
-.dark[data-era="2010"] button:not(.time-travel-panel button) {
+html.dark[data-era="2010"] button:not(.time-travel-panel button):not(.theme-toggle-btn) {
   background: linear-gradient(180deg, #3a3f47 0%, #2a2d33 100%) !important;
   border-color: #444444 !important;
   color: #ffffff !important;
@@ -652,7 +652,7 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) !important;
 }
 
-.dark[data-era="2010"] button:not(.time-travel-panel button):hover {
+html.dark[data-era="2010"] button:not(.time-travel-panel button):not(.theme-toggle-btn):hover {
   background: linear-gradient(180deg, #444a54 0%, #353941 100%) !important;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
