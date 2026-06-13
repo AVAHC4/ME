@@ -162,7 +162,7 @@ export default function Page() {
                     ]} />
                 </GoalItem>
 
-                <GoalItem label="hit gym 5 times a week" percentString="9/260" />
+                <GoalItem label="hit gym 5 times a week" percentString="90/260" />
 
             </div>
 
