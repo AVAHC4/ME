@@ -36,7 +36,10 @@ export function TimeTravelNavItem() {
                         {ERAS.map((e) => (
                             <button
                                 key={e.value}
-                                onClick={() => setEra(e.value)}
+                                onClick={() => {
+                                    setEra(e.value)
+                                    setIsOpen(false)
+                                }}
                                 className={`
                    era-switch-btn
                    text-xs px-2 py-1 rounded-sm border transition-colors cursor-pointer
